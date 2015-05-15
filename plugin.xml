@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.ui.actionSets">
+      <actionSet
+            label="Open Directory Action Set"
+            visible="true"
+            id="cn.xuxianping.eclipse.plugin.opendir.actionSet">
+         <action
+               label="打开文件目录"
+               icon="icons/openfile.png"
+               class="cn.xuxianping.eclipse.plugin.opendir.actions.OpenDirectoryAction"
+               tooltip="打开文件目录"
+               toolbarPath="openDirectoryGroup"
+               id="cn.xuxianping.eclipse.plugin.opendir.actions.OpenDirectoryAction">
+         </action>
+      </actionSet>
+   </extension>
+</plugin>
