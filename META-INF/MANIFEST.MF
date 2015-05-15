@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: cn.xuxianping.eclipse.plugin.Opendirectory
-Bundle-SymbolicName: cn.xuxianping.eclipse.plugin.opendir; singleton:=true
+Bundle-SymbolicName: opendir;singleton:=true
 Bundle-Version: 1.0.0.qualifier
 Bundle-Activator: cn.xuxianping.eclipse.plugin.opendir.Activator
 Bundle-Vendor: xuxianping
